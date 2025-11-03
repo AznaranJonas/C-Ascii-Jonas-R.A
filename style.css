@@ -1,0 +1,231 @@
+/* creador Jonas Rivadeneyara Aznaran */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* creador Jonas Rivadeneyara Aznaran */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.2em;
+}
+
+/* creador Jonas Rivadeneyara Aznaran */
+.seccion {
+    margin-bottom: 50px;
+    padding: 25px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    border-left: 5px solid #3498db;
+}
+
+/* creador Jonas Rivadeneyara Aznaran */
+.seccion h2 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+
+/* creador Jonas Rivadeneyara Aznaran */
+/* creador Jonas Rivadeneyara Aznaran */
+/* creador Jonas Rivadeneyara Aznaran */
+/* creador Jonas Rivadeneyara Aznaran */
+/* creador Jonas Rivadeneyara Aznaran */
+/* creador Jonas Rivadeneyara Aznaran */
+/* creador Jonas Rivadeneyara Aznaran */
+/* creador Jonas Rivadeneyara Aznaran */
+/* creador Jonas Rivadeneyara Aznaran */
+/* creador Jonas Rivadeneyara Aznaran */
+/* creador Jonas Rivadeneyara Aznaran */
+/* creador Jonas Rivadeneyara Aznaran */
+/* creador Jonas Rivadeneyara Aznaran */
+/* creador Jonas Rivadeneyara Aznaran */
+/* creador Jonas Rivadeneyara Aznaran */
+/* creador Jonas Rivadeneyara Aznaran */
+/* creador Jonas Rivadeneyara Aznaran */
+/* creador Jonas Rivadeneyara Aznaran */
+/* creador Jonas Rivadeneyara Aznaran */
+/* creador Jonas Rivadeneyara Aznaran */
+/* creador Jonas Rivadeneyara Aznaran */
+/* creador Jonas Rivadeneyara Aznaran */
+/* creador Jonas Rivadeneyara Aznaran */
+/* creador Jonas Rivadeneyara Aznaran */
+/* creador Jonas Rivadeneyara Aznaran */
+/* creador Jonas Rivadeneyara Aznaran */
+/* creador Jonas Rivadeneyara Aznaran */
+/* creador Jonas Rivadeneyara Aznaran */
+/* creador Jonas Rivadeneyara Aznaran */
+/* creador Jonas Rivadeneyara Aznaran */
+/* creador Jonas Rivadeneyara Aznaran */
+/* creador Jonas Rivadeneyara Aznaran */
+/* creador Jonas Rivadeneyara Aznaran */
+/* creador Jonas Rivadeneyara Aznaran */
+/* creador Jonas Rivadeneyara Aznaran */
+/* creador Jonas Rivadeneyara Aznaran */
+/* creador Jonas Rivadeneyara Aznaran */
+/* creador Jonas Rivadeneyara Aznaran */
+/* creador Jonas Rivadeneyara Aznaran */
+/* creador Jonas Rivadeneyara Aznaran */
+/* creador Jonas Rivadeneyara Aznaran */
+/* creador Jonas Rivadeneyara Aznaran */
+.descripcion {
+    background: #e8f4f8;
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.controles {
+    text-align: center;
+    margin: 20px 0;
+}
+
+button {
+    background: #95a5a6;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin: 5px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: #7f8c8d;
+    transform: translateY(-2px);
+}
+
+.btn-activo {
+    background: #e74c3c !important;
+    font-weight: bold;
+}
+
+/* creador Jonas Rivadeneyara Aznaran */
+.tabla {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    gap: 6px;
+    margin-top: 15px;
+}
+
+.codigo-item {
+    background: #ffffff;
+    padding: 10px 6px;
+    border-radius: 6px;
+    text-align: center;
+    border: 2px solid #e9ecef;
+    min-height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+    cursor: help;
+}
+
+.codigo-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.control {
+    background: linear-gradient(135deg, #e74c3c, #c0392b) !important;
+    color: white;
+    border-color: #c0392b !important;
+}
+
+.extendido {
+    background: linear-gradient(135deg, #f39c12, #e67e22) !important;
+    color: white;
+    border-color: #e67e22 !important;
+}
+
+.normal {
+    background: linear-gradient(135deg, #3498db, #2980b9) !important;
+    color: white;
+    border-color: #2980b9 !important;
+}
+
+.numero {
+    font-weight: bold;
+    font-size: 0.8em;
+    margin-bottom: 4px;
+    color: inherit;
+}
+
+.caracter {
+    font-size: 1.2em;
+    margin: 2px 0;
+    font-family: 'Consolas', 'Monaco', monospace;
+    min-height: 1.3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hex {
+    font-size: 0.7em;
+    opacity: 0.9;
+    color: inherit;
+}
+
+.control .caracter {
+    font-size: 0.65em;
+    line-height: 1.1;
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+    .tabla {
+        grid-template-columns: repeat(12, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .tabla {
+        grid-template-columns: repeat(8, 1fr);
+    }
+    
+    .container {
+        padding: 15px;
+    }
+    
+    h1 {
+        font-size: 1.8em;
+    }
+}
+
+@media (max-width: 480px) {
+    .tabla {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    button {
+        padding: 10px 15px;
+        font-size: 0.9em;
+        margin: 2px;
+    }
+}

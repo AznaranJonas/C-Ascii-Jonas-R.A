@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!-- creador Jonas Rivadeneyara Aznaran -->
+<html lang="es">
+<head>
+    <!-- creador Jonas Rivadeneyara Aznaran -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASCII - MS-DOS vs Windows</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- creador Jonas Rivadeneyara Aznaran -->
+    <div class="container">
+        <h1>🔢 ASCII Estándar (0-127) + 2 Extensiones</h1>
+        
+        <!-- ASCII Estándar -->
+        <!-- creador Jonas Rivadeneyara Aznaran -->
+        <section class="seccion">
+            <h2>1. ASCII ESTÁNDAR (0-127) - UNIVERSAL</h2>
+            <p class="descripcion">Estos 128 caracteres son IDÉNTICOS en todos los sistemas</p>
+            <div id="ascii-estandar" class="tabla"></div>
+        </section>
+
+        <!-- Versiones Extendidas -->
+        <section class="seccion">
+            <h2>2. ASCII EXTENDIDO (128-255) - DOS vs WINDOWS</h2>
+            <p class="descripcion" id="descripcion-extendido">Selecciona una versión para ver las diferencias</p>
+
+            <div class="controles">
+                <button onclick="mostrarExtension('dos')" class="btn-activo">🔷 MS-DOS (OEM 437)</button>
+                <button onclick="mostrarExtension('windows')">🔶 Windows-1252</button>
+            </div>
+            
+            <div id="ascii-extendido" class="tabla"></div>
+        </section>
+    </div>
+
+    <!-- creador Jonas Rivadeneyara Aznaran -->
+    <script src="ascii.js"></script>
+</body>
+</html>
